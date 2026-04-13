@@ -16,7 +16,7 @@ st.markdown("""
     .reportview-container { background: #0e1117; }
     .stStatusWidget { visibility: hidden; }
     </style>
-    """, unsafe_allow_stdio=True)
+    """, unsafe_allow_html=True)
 
 # --- 2. CONFIGURATION ---
 # This matches your specific Colab training run path
